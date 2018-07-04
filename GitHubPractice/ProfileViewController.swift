@@ -23,7 +23,10 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Berhasil")
+        usernameLabel.text = username
+        firstNameLabel.text = firstName
+        lastNameLabel.text = lastName
+        emailLabel.text = email
         // Do any additional setup after loading the view.
     }
 
