@@ -24,9 +24,9 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         usernameLabel.text = username
-        firstNameLabel.text = firstName
-        lastNameLabel.text = lastName
-        emailLabel.text = email
+        firstNameLabel.text = "First Name : \(firstName)"
+        lastNameLabel.text = "Last Name : \(lastName)"
+        emailLabel.text = "Email : \(email)"
         // Do any additional setup after loading the view.
     }
 
