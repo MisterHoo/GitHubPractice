@@ -11,6 +11,15 @@ import UIKit
 class LoginViewController: UIViewController {
 
     
+<<<<<<< HEAD
+=======
+    @IBOutlet weak var firstNameField: UITextField!
+    @IBOutlet weak var lastNameField: UITextField!
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var userNameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
+>>>>>>> e63ea5a0be365d10f2bdaeaf147ee3df5b858f14
     
     @IBAction func registerButton(_ sender: Any) {
         performSegue(withIdentifier: "LoginToLogin2", sender: self)
