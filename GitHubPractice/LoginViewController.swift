@@ -11,8 +11,15 @@ import UIKit
 class LoginViewController: UIViewController {
 
     
+    
     @IBAction func registerButton(_ sender: Any) {
         performSegue(withIdentifier: "LoginToLogin2", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? Login2ViewController else { return }
+        
+        
     }
     
     

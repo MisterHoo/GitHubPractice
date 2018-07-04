@@ -10,16 +10,32 @@ import UIKit
 
 class Login2ViewController: UIViewController {
 
+    var username : String = ""
+    var password : String = ""
+    var email : String = ""
+    var firstName : String = ""
+    var lastName : String = ""
+    
+    @IBOutlet weak var warningLabel: UILabel!
+    
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
     
     @IBAction func loginButton(_ sender: Any) {
-        performSegue(withIdentifier: "Login2ToProfile", sender: self)
+        if usernameTextField.text == username && passwordTextField.text == password {
+            performSegue(withIdentifier: "Login2ToProfile", sender: self)
+        }else{
+            warningLabel.text = "Wrong username or password"
+        }
+        
+        
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        warningLabel.text = ""
         // Do any additional setup after loading the view.
     }
 
