@@ -16,6 +16,11 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var lastNameLabel: UILabel!    
     @IBOutlet weak var emailLabel: UILabel!
     
+    var username : String = ""
+    var firstName : String = ""
+    var lastName : String = ""
+    var email : String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Berhasil")
