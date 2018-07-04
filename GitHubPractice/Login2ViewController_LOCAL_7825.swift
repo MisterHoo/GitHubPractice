@@ -1,29 +1,33 @@
 //
-//  LoginViewController.swift
+//  Login2ViewController.swift
 //  GitHubPractice
 //
-//  Created by Yosua Hoo on 04/07/18.
+//  Created by Ivan Riyanto on 04/07/18.
 //  Copyright © 2018 Yosua Hoo. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class Login2ViewController: UIViewController {
 
-    @IBOutlet weak var firstNameField: UITextField!
-    @IBOutlet weak var lastNameField: UITextField!
-    @IBOutlet weak var emailField: UITextField!
-    @IBOutlet weak var userNameField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
+    var username : String = ""
+    var password : String = ""
+    var email : String = ""
+    var firstName : String = ""
+    var lastName : String = ""
     
-
+    @IBOutlet weak var warningLabel: UILabel!
     
-    @IBAction func registerButton(_ sender: Any) {
-        performSegue(withIdentifier: "LoginToLogin2", sender: self)
-    }
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let destination = segue.destination as? Login2ViewController else { return }
+    
+    @IBAction func loginButton(_ sender: Any) {
+        if usernameTextField.text == username && passwordTextField.text == password {
+            performSegue(withIdentifier: "Login2ToProfile", sender: self)
+        }else{
+            warningLabel.text = "Wrong username or password"
+        }
         
         
     }
@@ -31,7 +35,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        warningLabel.text = ""
         // Do any additional setup after loading the view.
     }
 

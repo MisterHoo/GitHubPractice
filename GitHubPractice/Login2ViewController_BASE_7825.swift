@@ -1,31 +1,19 @@
 //
-//  LoginViewController.swift
+//  Login2ViewController.swift
 //  GitHubPractice
 //
-//  Created by Yosua Hoo on 04/07/18.
+//  Created by Ivan Riyanto on 04/07/18.
 //  Copyright © 2018 Yosua Hoo. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
-
-    @IBOutlet weak var firstNameField: UITextField!
-    @IBOutlet weak var lastNameField: UITextField!
-    @IBOutlet weak var emailField: UITextField!
-    @IBOutlet weak var userNameField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
-    
+class Login2ViewController: UIViewController {
 
     
-    @IBAction func registerButton(_ sender: Any) {
-        performSegue(withIdentifier: "LoginToLogin2", sender: self)
-    }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let destination = segue.destination as? Login2ViewController else { return }
-        
-        
+    @IBAction func loginButton(_ sender: Any) {
+        performSegue(withIdentifier: "Login2ToProfile", sender: self)
     }
     
     
