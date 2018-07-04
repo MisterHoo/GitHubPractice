@@ -1,24 +1,18 @@
 //
-//  ProfileViewController.swift
+//  Login2ViewController.swift
 //  GitHubPractice
 //
-//  Created by Yosua Hoo on 04/07/18.
+//  Created by Ivan Riyanto on 04/07/18.
 //  Copyright © 2018 Yosua Hoo. All rights reserved.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class Login2ViewController: UIViewController {
 
-    
-    @IBOutlet weak var usernameLabel: UILabel!
-    @IBOutlet weak var firstNameLabel: UILabel!
-    @IBOutlet weak var lastNameLabel: UILabel!    
-    @IBOutlet weak var emailLabel: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Berhasil")
+
         // Do any additional setup after loading the view.
     }
 
