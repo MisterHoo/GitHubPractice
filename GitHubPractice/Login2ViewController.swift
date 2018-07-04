@@ -10,6 +10,13 @@ import UIKit
 
 class Login2ViewController: UIViewController {
 
+    
+    
+    @IBAction func loginButton(_ sender: Any) {
+        performSegue(withIdentifier: "Login2ToProfile", sender: self)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
