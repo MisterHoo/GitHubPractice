@@ -15,6 +15,8 @@
 		66AB5E5020ECC25D0085C800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AB5E4E20ECC25D0085C800 /* LaunchScreen.storyboard */; };
 		66AB5E5B20ECC25D0085C800 /* GitHubPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB5E5A20ECC25D0085C800 /* GitHubPracticeTests.swift */; };
 		66AB5E6620ECC25D0085C800 /* GitHubPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB5E6520ECC25D0085C800 /* GitHubPracticeUITests.swift */; };
+		66AB5E7420ECC2B50085C800 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB5E7320ECC2B50085C800 /* ProfileViewController.swift */; };
+		66AB5E7620ECC2BF0085C800 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB5E7520ECC2BF0085C800 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		66AB5E6120ECC25D0085C800 /* GitHubPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AB5E6520ECC25D0085C800 /* GitHubPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubPracticeUITests.swift; sourceTree = "<group>"; };
 		66AB5E6720ECC25D0085C800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66AB5E7320ECC2B50085C800 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		66AB5E7520ECC2BF0085C800 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				66AB5E4220ECC25C0085C800 /* AppDelegate.swift */,
 				66AB5E4420ECC25C0085C800 /* ViewController.swift */,
 				66AB5E4620ECC25C0085C800 /* Main.storyboard */,
+				66AB5E7320ECC2B50085C800 /* ProfileViewController.swift */,
+				66AB5E7520ECC2BF0085C800 /* LoginViewController.swift */,
 				66AB5E4C20ECC25D0085C800 /* Assets.xcassets */,
 				66AB5E4E20ECC25D0085C800 /* LaunchScreen.storyboard */,
 				66AB5E5120ECC25D0085C800 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				66AB5E4520ECC25C0085C800 /* ViewController.swift in Sources */,
 				66AB5E4320ECC25C0085C800 /* AppDelegate.swift in Sources */,
+				66AB5E7420ECC2B50085C800 /* ProfileViewController.swift in Sources */,
+				66AB5E7620ECC2BF0085C800 /* LoginViewController.swift in Sources */,
 				66AB5E4B20ECC25C0085C800 /* GitHubPractice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
