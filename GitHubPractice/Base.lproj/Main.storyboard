@@ -59,7 +59,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <segue destination="cf9-Ew-u0C" kind="show" id="pFD-4e-kYC"/>
+                                    <action selector="registerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qp6-Cc-kFO"/>
+                                    <segue destination="cf9-Ew-u0C" kind="show" identifier="LoginToLogin2" id="pFD-4e-kYC"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3ov-pA-AXC">
@@ -148,7 +149,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
-                                    <segue destination="v1m-og-2o7" kind="show" id="yLQ-6d-9wQ"/>
+                                    <action selector="loginButton:" destination="cf9-Ew-u0C" eventType="touchUpInside" id="tKo-7S-8pd"/>
+                                    <segue destination="v1m-og-2o7" kind="show" identifier="Login2ToProfile" id="yLQ-6d-9wQ"/>
                                 </connections>
                             </button>
                         </subviews>
