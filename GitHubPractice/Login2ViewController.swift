@@ -28,8 +28,15 @@ class Login2ViewController: UIViewController {
         }else{
             warningLabel.text = "Wrong username or password"
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? ProfileViewController else { return }
         
-        
+        destination.firstName = firstName
+        destination.lastName = lastName
+        destination.email = email
+        destination.username = username
     }
     
     
