@@ -210,12 +210,10 @@
                         <viewLayoutGuide key="safeArea" id="aus-JW-HBg"/>
                     </view>
                     <connections>
-                        <outlet property="UsernameLabel" destination="r2v-Qf-Arb" id="OZp-c3-brt"/>
                         <outlet property="emailLabel" destination="Bpj-69-3th" id="Kuz-6f-mcn"/>
-                        <outlet property="first" destination="1nF-GI-fYt" id="Ttf-UY-KRj"/>
                         <outlet property="firstNameLabel" destination="1nF-GI-fYt" id="4fK-qm-gum"/>
                         <outlet property="lastNameLabel" destination="PC3-dA-dkg" id="OXK-Bv-EWj"/>
-                        <outlet property="usernameLabel" destination="r2v-Qf-Arb" id="66K-m3-9dL"/>
+                        <outlet property="usernameLabel" destination="r2v-Qf-Arb" id="Bf5-7j-gXe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A49-aI-Efh" userLabel="First Responder" sceneMemberID="firstResponder"/>
